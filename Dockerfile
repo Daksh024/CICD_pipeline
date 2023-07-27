@@ -1,2 +1,3 @@
 FROM python
-CMD ["python","main.py"]
+COPY . .
+CMD ["python","./main.py"]
